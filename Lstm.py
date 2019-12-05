@@ -19,7 +19,7 @@ import time, os
 # file_name = 'data\\zone_taxi_demand\\15min_interval' # taxi demand file
 file_name = 'data\\zone_taxi_demand\\10min_interval'  # taxi demand file
 
-train_set, test_set = [1, 3, 4, 5], [2] # trian set, test set
+train_set, test_set = [1, 2, 3, 4], [5] # trian set, test set
 T = 4 # lagged number for prediction
 time_interval = 10 # time interval
 
